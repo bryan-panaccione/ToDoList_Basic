@@ -1,23 +1,12 @@
-<!doctype html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>To Do List</title>
-</head>
-
-<body>
     <h1>To Do List</h1>
+    <div>
     <h2>Input Tasks</h2>
-    <form id="todo_in_field">
+    <form id="todo_in_field"> <!-- Here is your input form field, with a button for submit, uses font-awesome fa-arrow-right icon-->
         <input type="text" class="user-inputStr" placeholder="Please, input your tasks here...">
         <button class="submitInput"><i class="fa-solid fa-arrow-right"></i></button>
     </form>
     </div>
-    <div>
+    <div> <!-- The following three divs include Save, Clear and Previous buttons -->
         <button class="button alt saveButton">Save List</button>
     </div>
     <div>
@@ -26,18 +15,13 @@
     <div>
         <button class="button clearButton">Clear List</button>
     </div>
-    </div>
+        <!-- Task list output area, center tags optional, it could also be handled in CSS -->
     <div>
-        <!-- Task list output area -->
         <center>
             <h2>Task List</h2>
         </center>
         <div class="todo-container">
-            <ul class="todo-list" id="saveSection">
+            <ul class="todo-list" id="saveSection"> <!-- This is where list items appear, and everything inside of todo container is saved/pulled from the localstorage-->
             </ul>
         </div>
     </div>
-    <script src="js/ToDo-List_Instructional.js"></script>
-</body>
-
-</html>
