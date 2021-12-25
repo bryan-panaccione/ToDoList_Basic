@@ -1,5 +1,14 @@
 # ToDoList_Basic
-This repository focuses on the JS/HTML/CSS relationship in creating a To Do List. It is not intended to function immediately out of the box. Following the detailed comments, anyone should be able to incorporate this to do list into any web page with ease.
+This repository is a How-To on creating a JS/HTML/CSS To-Do list. It is not functional on its own, the pages are not linked and the HTML is a snippet of what is required to execute the JS.  The JS, HTML and CSS files in this repository are heavily commented, describing what each line or section of code is responsible for. Using these comments and the code provided, a beginner will be able to gain significant understanding of the DOM.
+
+Functionalities of this To Do List include:
+Add Tasks
+Delete Tasks
+Mark Tasks as complete
+Save Task list
+Clear tasks from DOM
+Pull most recent saved task
+Press "Save" button on an empty list to clear localStorage
 
 This to do lists uses localStorage() to save and pull previously typed to do lists.
 
